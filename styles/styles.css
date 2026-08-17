@@ -28,14 +28,12 @@ section {
 
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
 
   height: auto;
   max-width: 100%;
   width: 500px;
   margin: auto;
-  gap: 18px;
+  /* gap: 18px; */
   border-radius: .5rem;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.484);
 
@@ -44,6 +42,32 @@ section {
   color: black;
 }
 
+div#input {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-size: 19px;
+  text-align: start;
+
+  padding: 1rem 1rem;
+}
+
+div#res {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* gap: 16px; */
+  font-size: 19px;
+  text-align: start;
+
+  padding: 1rem;
+}
+
+#png {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 16px;
+}
 
 div.imagem {
   margin-bottom: 20px;

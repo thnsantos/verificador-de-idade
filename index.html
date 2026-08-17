@@ -14,11 +14,21 @@
 
   <section class="quadro">
     <div id="input">
-    
+      <p>Ano de Nascimento:
+        <input type="number" name="txtano" id="txtano" min="0">
+      </p>
+      <p>Sexo:
+        <input type="radio" name="radsex" id="masc" checked>
+        <label for="masc">Masculinho</label>
+        <input type="radio" name="radsex" id="fem">
+        <label for="fem">Feminino</label>
+      </p>
+      <p>
+        <input type="button" name="verificar" id="vef" value="verificar" onclick="verificar()">
+      </p>
     </div>
-
     <div id="res">
-  
+      Preencha os dados acime para ver o resultado
     </div>
   </section>
 
